@@ -16,7 +16,7 @@ W="\033[1;37m" # Whit
 ok=(G+"*"+W)           
 am=(Bl+">> "+W)          
 no=(R+"! "+W)          
-from db import banner
+import banner
 to = input (f"{am}The Target's Gmail Address: ")
 body = input(f"{am}Message: ")
 print ('='*49)
