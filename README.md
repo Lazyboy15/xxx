@@ -3,7 +3,7 @@
 
  <b>xxnx</b> its a simple smpt tool for mails spaming
  <h3>what is smpt?</h3>
- <b>Simple Mail Transfer Protocol or smtp service.<br></b>
+ <b>Simple Mail Transfer Protocol or SMTP service.<br></b>
  
 The Simple Mail Transfer Protocol (SMTP) is an internet standard communication protocol for electronic mail transmission. Mail servers and other message transfer agents use SMTP to send and receive mail messages. User-level email clients typically use SMTP only for sending messages to a mail server for relaying, and typically submit outgoing email to the mail server on port 587 or 465 per RFC 8314. For retrieving messages, IMAP (which replaced the older POP3) is standard, but proprietary servers also often implement proprietary protocols, e.g., Exchange ActiveSync.
 
