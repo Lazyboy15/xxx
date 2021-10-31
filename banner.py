@@ -13,7 +13,7 @@ def clear_screen():
 def banner():
     print(f'''
         
-            {Bl}V0.1{G}   
+          {Bl} V 1.0 {G}   
      __    __  __    __  __    __ 
     /  |  /  |/  |  /  |/  |  /  |
     $$ |  $$ |$$ |  $$ |$$ |  $$ |
