@@ -31,7 +31,7 @@ Mahmod Khamal   Ahmed Khalid{Y}
 
 GitHUB:{R}
  
-https://github.com/0xLzDZ               
+https://github.com/Lzboy17/              
                               
 {W}''')
 clear_screen()
