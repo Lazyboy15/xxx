@@ -1,7 +1,9 @@
+#!/usr/bin/env python3
+#*code:UTF-8*
+
 import os
 from time import sleep
-W="\033[1;37m" # Whit
-G="\033[1;32m" # 
+from cl import *
 def clear_screen():
     clear = 'clear'
     if os.name in ('nt', 'dos'):
@@ -9,20 +11,34 @@ def clear_screen():
     os.system(clear)
 
 def banner():
-    print(f'''{G}
+    print(f'''
+        
+            {Bl}V0.1{G}   
+     __    __  __    __  __    __ 
+    /  |  /  |/  |  /  |/  |  /  |
+    $$ |  $$ |$$ |  $$ |$$ |  $$ |
+    $$  \/$$/ $$  \/$$/ $$  \/$$/ 
+     $$  $$<   $$  $$<   $$  $$<  
+      $$$$  \   $$$$  \   $$$$  \  
+     $$ /$$  | $$ /$$  | $$ /$$  |
+    $$ |  $$ |$$ |  $$ |$$ |  $$ |
+    $$/   $$/ $$/   $$/ $$/   $$/ 
+                    
+                 {Y}
+DEV: {Bf}
+                 {R}
+Mahmod Khamal   Ahmed Khalid{Y}
 
-    ▄      ▄     ▄       ▄  
-▀▄   █ ▀▄   █     █  ▀▄   █ 
-  █ ▀    █ ▀  ██   █   █ ▀  
- ▄ █    ▄ █   █ █  █  ▄ █   
-█   ▀▄ █   ▀▄ █  █ █ █   ▀▄ 
- ▀      ▀     █   ██  ▀
-
-DEV: @ LZBOY17 
-     @ DAMAR{W}
-''')
-
-os.system("aplay /home/blackjack/Downloads/'Strange _Things.wav'")
+GitHUB:{R}
+ 
+https://github.com/0xLzDZ               
+                              
+{W}''')
 clear_screen()
+sleep(2)
+print(f"[{ok}] XXX loading... ")
+sleep(4)
+clear_screen()
+sleep(1)
 banner()
                     
