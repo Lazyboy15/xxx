@@ -27,7 +27,7 @@ def banner():
                  {Y}
 DEV: {Bf}
                  {R}
-Mahmod Khamal   Ahmed Khalid{Y}
+MR.DARK   0xNSFWBOY17{Y}
 
 GitHUB:{R}
  
