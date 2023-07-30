@@ -1,14 +1,17 @@
 #!/usr/bin/env python3
-#*code:UTF-8*
+# *code:UTF-8*
 
 import os
 from time import sleep
 from cl import *
+
+
 def clear_screen():
     clear = 'clear'
     if os.name in ('nt', 'dos'):
         clear = 'cls'
     os.system(clear)
+
 
 def banner():
     print(f'''
@@ -26,14 +29,10 @@ def banner():
                     
                  {Y}
 DEV: {Bf}
-                 {R}
-MR.DARK   0xNSFWBOY17{Y}
-
-GitHUB:{R}
- 
-https://github.com/Lzboy17/              
-                              
-{W}''')
+    =>{R}MR.DARK && xJAXON-jpg(Houari) {Y}
+GitHUB:
+    {R}https://github.com/Lzboy17/{W}                                        
+''')
 clear_screen()
 sleep(2)
 print(f"[{ok}] XXX loading... ")
@@ -41,4 +40,3 @@ sleep(4)
 clear_screen()
 sleep(1)
 banner()
-                    
